@@ -5,9 +5,10 @@ before_install:
 - cd ./quiz-backend
 deploy:
   provider: heroku
+  skip_cleanup: true
   api_key:
     secure: McovvivgPdbpN7qujAn/SSowrfNyS/39GJYWOFpyORaXxz7R+SbTjUpE+QbVB+gjP+b3d+o3qIXTyDISie2NvDQ3wDmHqtPlvWbHgZIypHSPHHp/+I99m2n6fA9QSrOwxE9LV35ZBalt25ooM+vSKRAcqEBhgKbRWMWHs0COMaHFdROoFDHxCuzxwFiOwYehEZJro6c2cs3GjA3CS2Mm79OGiwL1cum2xv5C9YCx4T1qfq+RTIYxyKPS1N6hrHdXMk763PZSqQKj5YhEB9cSFZxEAb87wVIbqCU1nj13x8DkxoiLsRzXj7Oz34vbGgXzuPXYp6i8qR9Hx2q6eB/CSjW2v698hf/b37nJsAWPrf2baLHsm2aR7nPVic/fPbIJqzhvc8WtgOYVLyVr3Z4ToUCTi1GpNwvHMaozDuJl9cndURO66erptTXT5T7BPHIu8qnhQa5VxAfWYiP/O57p5ceMmEZH6im7ZaoVftPP5q6l92r6ZccPYkgebBfVOrp7wXkjRC4GMIaO1ikIGBvv6ww8wKCoDJYj05kPrti0El8k4/Po3hHKBbJ2iv64DBkwjwKgQLuZR1M874cph+7kJpsegwaAZUE7Jja2MZSliP9xebgYC+SsfPxRh8HObu20URL87gptmIqb8YQn0GInysYcqvXkqknWnrMt7IdgLuI=
 app: josenvisa
-true:
+on:
   repo: peeveepv/Quiz
-  branch: master
+  

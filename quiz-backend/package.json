@@ -1,0 +1,30 @@
+{
+  "name": "quiz-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Josefin Reuter",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.5.0"
+  },
+  "dependencies": {
+    "apollo-server-hapi": "^2.0.6",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "graphql": "^14.0.2",
+    "hapi": "^17.5.4",
+    "inert": "^5.1.0",
+    "mongoose": "^5.2.13",
+    "nodemon": "^1.18.4",
+    "path": "^0.12.7"
+  }
+}

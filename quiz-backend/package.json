@@ -6,8 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "watch": "nodemon index.js",
-    "lint": "eslint .",
-    "test": ""
+    "lint": "eslint ."
   },
   "author": "Josefin Reuter",
   "license": "ISC",

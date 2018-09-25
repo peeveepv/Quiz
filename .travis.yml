@@ -1,3 +1,8 @@
+language: node_js
+node_js:
+- 8.11.1
+before_install:
+- cd ./quiz-backend
 deploy:
   provider: heroku
   api_key:
